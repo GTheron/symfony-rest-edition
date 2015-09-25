@@ -1,0 +1,7 @@
+acme_demo_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeDemoBundle:Default:index }
+
+get:
+    path:     /get
+    defaults: { _controller: AcmeDemoBundle:Post:get }
